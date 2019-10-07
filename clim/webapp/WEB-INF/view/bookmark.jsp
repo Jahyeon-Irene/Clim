@@ -29,7 +29,7 @@
 
 </main>
 <c:import url="/WEB-INF/template/footer.jsp"/>
-<script type="text/tempate" id="bookmarkMovieTmp">
+<script type="text/template" id="bookmarkMovieTmp">
   <@if(movies.length>0){@>
 <@_.each(movies,function(movie){ @>
  <li class="bookmark_movie_card">
